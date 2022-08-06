@@ -67,3 +67,5 @@ paginate     = 10
 [[params.social]]
   name = "email"
   url="mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev"
+
+googleAnalytics = 'G-J7SRKMECR2'

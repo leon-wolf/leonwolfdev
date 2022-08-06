@@ -20,8 +20,8 @@ paginate     = 10
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
+  description = "leonwolf.dev - Personal Homepage"
+  keywords = "homepage, iOS Developer, iOS, Developer, Swift, SwiftUI, UIKit, Web, VueJS, Javascript, JSDev, xCode"
   images = [""]
 
 [taxonomies]
@@ -40,16 +40,17 @@ paginate     = 10
     [languages.en.params.logo]
       logoText = "leonwolf.dev"
       logoHomeLink = "/"
+      logoCursorColor = "#006eff"
     # or
     #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+#  [[menu.main]]
+#    identifier = "blog"
+#    name       = "Blog"
+#    url        = "/posts"
 
 [[params.social]]
   name = "github"

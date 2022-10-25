@@ -1,14 +1,18 @@
 baseurl      = "https://leonwolf.dev"
-title        = "leonwolf.dev 2"
-languageCode = "en-us"
+title        = "leonwolf.de"
+languageCode = "de-de"
 theme        = "hello-friend-ng"
 paginate     = 10
+googleAnalytics = "G-J7SRKMECR2"
+enableRobotsTXT = true
 
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
+  [portrait]
+   path = "img/leon-wolf.jpg"
 
   # Subtitle for home
   homeSubtitle = "iOS and Fullstack Web Developer"
@@ -48,13 +52,17 @@ paginate     = 10
 
   # And you can even create generic menu
 #  [[menu.main]]
-#    identifier = "blog"
-#    name       = "Blog"
-#    url        = "/posts"
+#   identifier = "blog"
+#   name       = "Blog"
+#   url        = "/posts"
 
 [[params.social]]
   name = "github"
   url = "https://github.com/leon-wolf"
+
+[[params.social]]
+  name = "stackoverflow"
+  url = "https://stackoverflow.com/users/10005750/lwolf"
 
 [[params.social]]
   name = "linkedin"
@@ -68,4 +76,3 @@ paginate     = 10
   name = "email"
   url="mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev"
 
-googleAnalytics = 'G-J7SRKMECR2'

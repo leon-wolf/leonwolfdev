@@ -55,6 +55,7 @@ enableRobotsTXT = true
    identifier = "CV"
    name       = "CV"
    url        = "files/CV-Leon Wolf.pdf"
+   target     = "_blank"
 
 [[params.social]]
   name = "github"

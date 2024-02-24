@@ -51,10 +51,10 @@ enableRobotsTXT = true
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
-#  [[menu.main]]
-#   identifier = "blog"
-#   name       = "Blog"
-#   url        = "/posts"
+  [[menu.main]]
+   identifier = "CV"
+   name       = "CV"
+   url        = "files/CV-Leon Wolf.pdf"
 
 [[params.social]]
   name = "github"

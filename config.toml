@@ -51,10 +51,10 @@ enableRobotsTXT = true
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
-  [[menu.main]]
-   identifier = "CV"
-   name       = "CV"
-   url        = "files/CV-Leon Wolf.pdf"
+  # [[menu.main]]
+  #  identifier = "CV"
+  #  name       = "CV"
+  #  url        = "files/CV-Leon Wolf.pdf"
 
 [[params.social]]
   name = "github"
@@ -75,4 +75,8 @@ enableRobotsTXT = true
 [[params.social]]
   name = "email"
   url="mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev"
+
+[[params.social]]
+  name = "cv"
+  url="files/CV-Leon_Wolf.pdf"
 

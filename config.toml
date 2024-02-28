@@ -1,5 +1,5 @@
 baseurl      = "https://leonwolf.dev"
-title        = "leonwolf.de"
+title        = "leonwolf.dev"
 languageCode = "de-de"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -15,7 +15,7 @@ enableRobotsTXT = true
    path = "img/leon-wolf.jpg"
 
   # Subtitle for home
-  homeSubtitle = "iOS and Fullstack Web Developer"
+  homeSubtitle = "iOS Developer @ CHECK24"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -35,8 +35,8 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "leonwolf.dev"
-    subtitle = "iOS and Fullstack Web Developer"
+    title = "Leon Wolf"
+    subtitle = "iOS Developer @ CHECK24"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
@@ -57,26 +57,25 @@ enableRobotsTXT = true
   #  url        = "files/CV-Leon Wolf.pdf"
 
 [[params.social]]
-  name = "github"
-  url = "https://github.com/leon-wolf"
-
-[[params.social]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com/users/10005750/lwolf"
+  name = "cv"
+  url="files/CV-Leon_Wolf.pdf"
 
 [[params.social]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/leon-wolf3103/"
 
 [[params.social]]
-  name = "xing"
-  url = "https://www.xing.com/profile/Leon_Wolf6"
+  name = "github"
+  url = "https://github.com/leon-wolf"
+
+# [[params.social]]
+#   name = "stackoverflow"
+#   url = "https://stackoverflow.com/users/10005750/lwolf"
+# [[params.social]]
+#   name = "xing"
+#   url = "https://www.xing.com/profile/Leon_Wolf6"
 
 [[params.social]]
   name = "email"
   url="mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev"
-
-[[params.social]]
-  name = "cv"
-  url="files/CV-Leon_Wolf.pdf"
 

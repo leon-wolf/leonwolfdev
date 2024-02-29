@@ -38,7 +38,8 @@ enableRobotsTXT = true
     readOtherPosts = "Read other posts"
 
     homeSubtitle = "iOS Developer @CHECK24"
-    portrait.path = "/img/leon-wolf.jpg"
+    [languages.en.portrait]
+      path = "/img/leon-wolf.jpg"
 
     [languages.en.params.logo]
       logoText = "leonwolf.dev"

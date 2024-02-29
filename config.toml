@@ -11,9 +11,6 @@ enableRobotsTXT = true
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
-  [portrait]
-   path = "img/leon-wolf.jpg"
-
   # Subtitle for home
   homeSubtitle = "iOS Developer @ CHECK24"
 
@@ -36,10 +33,12 @@ enableRobotsTXT = true
 [languages]
   [languages.en]
     title = "Leon Wolf"
-    subtitle = "iOS Developer @ CHECK24"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
+
+    homeSubtitle = "iOS Developer @CHECK24"
+    portrait.path = "/img/leon-wolf.jpg"
 
     [languages.en.params.logo]
       logoText = "leonwolf.dev"

@@ -12,7 +12,7 @@ enableRobotsTXT = true
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
   # Subtitle for home
-  homeSubtitle = "iOS Developer @ CHECK24"
+  homeSubtitle = "iOS Developer @ JAKALA Germany"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -37,7 +37,7 @@ enableRobotsTXT = true
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
-    homeSubtitle = "iOS Developer @CHECK24"
+    homeSubtitle = "iOS Developer @ JAKALA Germany"
     [languages.en.portrait]
       path = "/img/leon-wolf.jpg"
 

@@ -54,10 +54,10 @@ logoCursorColor = "#006eff"
 # alt = "Your example logo alt text"
 
 # And you can even create generic menu
-# [[menu.main]]
-#  identifier = "CV"
-#  name       = "CV"
-#  url        = "files/CV-Leon Wolf.pdf"
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts"
 
 [[params.social]]
 name = "cv"
@@ -85,3 +85,5 @@ url = "mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev"
 [services]
 [services.googleAnalytics]
 ID = "G-J7SRKMECR2"
+[services.disqus]
+shortname = "leonwolf-dev"

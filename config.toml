@@ -1,72 +1,75 @@
-baseurl      = "https://leonwolf.dev"
-title        = "leonwolf.dev"
+baseurl = "https://leonwolf.dev"
+title = "leonwolf.dev"
 languageCode = "de-de"
-theme        = "hello-friend-ng"
-paginate     = 10
-googleAnalytics = "G-J7SRKMECR2"
+theme = "hello-friend-ng"
 enableRobotsTXT = true
 
+[pagination]
+pagerSize = 5
+
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
-  # Subtitle for home
-  homeSubtitle = "iOS Developer @ JAKALA Germany"
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+# Subtitle for home
+homeSubtitle = "iOS Developer @ JAKALA Germany"
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
 
-  # Enable sharing buttons, if you like
-  enableSharingButtons = true
+# Enable sharing buttons, if you like
+enableSharingButtons = true
 
-  # Metadata mostly used in document's head
-  description = "leonwolf.dev - Personal Homepage"
-  keywords = "homepage, iOS Developer, iOS, Developer, Swift, SwiftUI, UIKit, Web, VueJS, Javascript, JSDev, xCode"
-  images = [""]
+# Metadata mostly used in document's head
+description = "leonwolf.dev - Personal Homepage"
+keywords = "homepage, iOS Developer, iOS, Developer, Swift, SwiftUI, UIKit, Web, VueJS, Javascript, JSDev, xCode"
+images = [""]
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+category = "blog"
+tag = "tags"
+series = "series"
 
 [languages]
-  [languages.en]
-    title = "Leon Wolf"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
+[languages.en]
+title = "Leon Wolf"
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+readOtherPosts = "Read other posts"
 
-    homeSubtitle = "iOS Developer @ JAKALA Germany"
-    [languages.en.portrait]
-      path = "/img/leon-wolf.jpg"
+[languages.en.params.portrait]
+path = "/img/leon-wolf.jpg"
 
-    [languages.en.params.logo]
-      logoText = "leonwolf.dev"
-      logoHomeLink = "/"
-      logoCursorColor = "#006eff"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+[languages.en.params]
+readOtherPosts = "Read other posts"
+homeSubtitle = "iOS Developer @ JAKALA Germany"
 
-  # And you can even create generic menu
-  # [[menu.main]]
-  #  identifier = "CV"
-  #  name       = "CV"
-  #  url        = "files/CV-Leon Wolf.pdf"
+[languages.en.params.logo]
+logoText = "leonwolf.dev"
+logoHomeLink = "/"
+logoCursorColor = "#006eff"
+# or
+#
+# path = "/img/your-example-logo.svg"
+# alt = "Your example logo alt text"
 
-[[params.social]]
-  name = "cv"
-  url="files/CV-Leon_Wolf.pdf"
+# And you can even create generic menu
+# [[menu.main]]
+#  identifier = "CV"
+#  name       = "CV"
+#  url        = "files/CV-Leon Wolf.pdf"
 
 [[params.social]]
-  name = "linkedin"
-  url = "https://www.linkedin.com/in/leon-wolf3103/"
+name = "cv"
+url = "files/CV-Leon_Wolf.pdf"
 
 [[params.social]]
-  name = "github"
-  url = "https://github.com/leon-wolf"
+name = "linkedin"
+url = "https://www.linkedin.com/in/leon-wolf3103/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/leon-wolf"
 
 # [[params.social]]
 #   name = "stackoverflow"
@@ -76,6 +79,9 @@ enableRobotsTXT = true
 #   url = "https://www.xing.com/profile/Leon_Wolf6"
 
 [[params.social]]
-  name = "email"
-  url="mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev"
+name = "email"
+url = "mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev"
 
+[services]
+[services.googleAnalytics]
+ID = "G-J7SRKMECR2"

@@ -54,10 +54,10 @@ logoCursorColor = "#006eff"
 # alt = "Your example logo alt text"
 
 # And you can even create generic menu
-[[menu.main]]
-identifier = "blog"
-name = "Blog"
-url = "/posts"
+# [[menu.main]]
+# identifier = "blog"
+# name = "Blog"
+# url = "/posts"
 
 # [[params.social]]
 # name = "cv"

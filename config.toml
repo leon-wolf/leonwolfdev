@@ -55,13 +55,13 @@ logoCursorColor = "#006eff"
 
 # And you can even create generic menu
 # [[menu.main]]
-#  identifier = "CV"
-#  name       = "CV"
-#  url        = "files/CV-Leon Wolf.pdf"
+# identifier = "blog"
+# name = "Blog"
+# url = "/posts"
 
-[[params.social]]
-name = "cv"
-url = "files/CV-Leon_Wolf.pdf"
+# [[params.social]]
+# name = "cv"
+# url = "files/CV-Leon_Wolf.pdf"
 
 [[params.social]]
 name = "linkedin"
@@ -71,9 +71,10 @@ url = "https://www.linkedin.com/in/leon-wolf3103/"
 name = "github"
 url = "https://github.com/leon-wolf"
 
-# [[params.social]]
-#   name = "stackoverflow"
-#   url = "https://stackoverflow.com/users/10005750/lwolf"
+[[params.social]]
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/10005750/lwolf"
+
 # [[params.social]]
 #   name = "xing"
 #   url = "https://www.xing.com/profile/Leon_Wolf6"
@@ -85,3 +86,5 @@ url = "mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev"
 [services]
 [services.googleAnalytics]
 ID = "G-J7SRKMECR2"
+[services.disqus]
+shortname = "leonwolfdev"

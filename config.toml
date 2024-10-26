@@ -1,87 +1,84 @@
 baseurl = "https://leonwolf.dev"
-title = "leonwolf.dev"
+title = "Leon Wolf"
 languageCode = "de-de"
-theme = "hello-friend-ng"
+theme = "gokarna"
 enableRobotsTXT = true
-
-[pagination]
-pagerSize = 5
+enableEmoji = true
 
 [params]
-dateform = "Jan 2, 2006"
-dateformShort = "Jan 2"
-dateformNum = "2006-01-02"
-dateformNumTime = "2006-01-02 15:04"
-# Subtitle for home
-homeSubtitle = "iOS Developer @ JAKALA Germany"
+avatarAltText = "avatar"
+avatarSize = "size-m"
+avatarURL = "/img/leon-wolf.jpg"
+description = "iOS Developer @ JAKALA Germany"
+footer = "Leon Wolf"
+metaKeywords = ["blog", "gokarna", "hugo"]
+showBackToTopButton = true                             # true or false for "back to top" button on posts and pages
+socialIcons = [
+    # {name = "twitter", url = "https://example.com"},
+    { name = "linkedin", url = "https://www.linkedin.com/in/leon-wolf3103/" },
+    { name = "xing", url = "https://www.xing.com/profile/Leon_Wolf6" },
+    { name = "stackoverflow", url = "https://stackoverflow.com/users/10005750/lwolf" },
+    # {name = "dribbble", url = "https://example.com"},
+    # {name = "instagram", url = "https://example.com"},
+    # {name = "twitch", url = "https://example.com"},
+    { name = "email", url = "mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev" },
+]
 
-# Set disableReadOtherPosts to true in order to hide the links to other posts.
-disableReadOtherPosts = false
+# [services]
+# [services.googleAnalytics]
+# ID = "G-J7SRKMECR2"
+# [services.disqus]
+# shortname = "leonwolfdev"
 
-# Enable sharing buttons, if you like
-enableSharingButtons = true
 
-# Metadata mostly used in document's head
-description = "leonwolf.dev - Personal Homepage"
-keywords = "homepage, iOS Developer, iOS, Developer, Swift, SwiftUI, UIKit, Web, VueJS, Javascript, JSDev, xCode"
-images = [""]
+[menu]
+[[menu.main]]
+name = "Home"
+pre = "<span data-feather='home'></span>"
+url = "/"
+weight = 1
 
-[taxonomies]
-category = "blog"
-tag = "tags"
-series = "series"
-
-[languages]
-[languages.en]
-title = "Leon Wolf"
-copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-readOtherPosts = "Read other posts"
-
-[languages.en.params.portrait]
-path = "/img/leon-wolf.jpg"
-
-[languages.en.params]
-readOtherPosts = "Read other posts"
-homeSubtitle = "iOS Developer @ JAKALA Germany"
-
-[languages.en.params.logo]
-logoText = "leonwolf.dev"
-logoHomeLink = "/"
-logoCursorColor = "#006eff"
-# or
-#
-# path = "/img/your-example-logo.svg"
-# alt = "Your example logo alt text"
-
-# And you can even create generic menu
 # [[menu.main]]
-#  identifier = "CV"
-#  name       = "CV"
-#  url        = "files/CV-Leon Wolf.pdf"
+# name = "Posts"
+# pre = "<span data-feather='book'></span>"
+# url = "/posts/"
+# weight = 2
 
-[[params.social]]
-name = "cv"
-url = "files/CV-Leon_Wolf.pdf"
+# [[menu.main]]
+# name = "Projects"
+# pre = "<span data-feather='code'></span>"
+# url = "/projects/"
+# weight = 3
 
-[[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/leon-wolf3103/"
+# [[menu.main]]
+# name = "Tags"
+# pre = "<span data-feather='tag'></span>"
+# url = "/tags/"
+# weight = 4
 
-[[params.social]]
-name = "github"
+[[menu.main]]
+identifier = "github"
+pre = "<span data-feather='github'></span>"
 url = "https://github.com/leon-wolf"
+weight = 5
 
-# [[params.social]]
-#   name = "stackoverflow"
-#   url = "https://stackoverflow.com/users/10005750/lwolf"
-# [[params.social]]
-#   name = "xing"
-#   url = "https://www.xing.com/profile/Leon_Wolf6"
+[[menu.main]]
+identifier = "buymeacoffee"
+pre = "<span data-feather='coffee'></span>"
+url = "https://buymeacoffee.com/leonwolf"
+weight = 6
 
-[[params.social]]
-name = "email"
-url = "mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev"
+# [[menu.main]]
+# identifier = "rss"
+# pre = "<span data-feather='rss'></span>"
+# url = "/index.xml"
+# weight = 7
 
-[services]
-[services.googleAnalytics]
-ID = "G-J7SRKMECR2"
+[markup]
+[markup.tableOfContents]
+startLevel = 1
+endLevel = 4
+ordered = false
+
+[minify]
+minifyOutput = true

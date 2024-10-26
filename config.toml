@@ -4,103 +4,25 @@ languageCode = "de-de"
 theme = "gokarna"
 enableRobotsTXT = true
 enableEmoji = true
-# [pagination]
-# pagerSize = 5
 
 [params]
 avatarAltText = "avatar"
 avatarSize = "size-m"
 avatarURL = "/img/leon-wolf.jpg"
-
-
-description = "Sky above, sand below and peace within"
+description = "iOS Developer @ JAKALA Germany"
 footer = "Leon Wolf"
 metaKeywords = ["blog", "gokarna", "hugo"]
 showBackToTopButton = true                             # true or false for "back to top" button on posts and pages
-
 socialIcons = [
     # {name = "twitter", url = "https://example.com"},
     { name = "linkedin", url = "https://www.linkedin.com/in/leon-wolf3103/" },
+    { name = "xing", url = "https://www.xing.com/profile/Leon_Wolf6" },
     { name = "stackoverflow", url = "https://stackoverflow.com/users/10005750/lwolf" },
     # {name = "dribbble", url = "https://example.com"},
     # {name = "instagram", url = "https://example.com"},
     # {name = "twitch", url = "https://example.com"},
     { name = "email", url = "mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev" },
 ]
-# dateform = "Jan 2, 2006"
-# dateformShort = "Jan 2"
-# dateformNum = "2006-01-02"
-# dateformNumTime = "2006-01-02 15:04"
-# # Subtitle for home
-# homeSubtitle = "iOS Developer @ JAKALA Germany"
-
-# # Set disableReadOtherPosts to true in order to hide the links to other posts.
-# disableReadOtherPosts = false
-
-# # Enable sharing buttons, if you like
-# enableSharingButtons = true
-
-# # Metadata mostly used in document's head
-# description = "leonwolf.dev - Personal Homepage"
-# keywords = "homepage, iOS Developer, iOS, Developer, Swift, SwiftUI, UIKit, Web, VueJS, Javascript, JSDev, xCode"
-# images = [""]
-
-# [taxonomies]
-# category = "blog"
-# tag = "tags"
-# series = "series"
-
-# [languages]
-# [languages.en]
-# title = "Leon Wolf"
-# copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-# readOtherPosts = "Read other posts"
-
-# [languages.en.params.portrait]
-# path = "/img/leon-wolf.jpg"
-
-# [languages.en.params]
-# readOtherPosts = "Read other posts"
-# homeSubtitle = "iOS Developer @ JAKALA Germany"
-
-# [languages.en.params.logo]
-# logoText = "leonwolf.dev"
-# logoHomeLink = "/"
-# logoCursorColor = "#006eff"
-# # or
-# #
-# # path = "/img/your-example-logo.svg"
-# # alt = "Your example logo alt text"
-
-# # And you can even create generic menu
-# # [[menu.main]]
-# # identifier = "blog"
-# # name = "Blog"
-# # url = "/posts"
-
-# # [[params.social]]
-# # name = "cv"
-# # url = "files/CV-Leon_Wolf.pdf"
-
-# [[params.social]]
-# name = "linkedin"
-# url = "https://www.linkedin.com/in/leon-wolf3103/"
-
-# [[params.social]]
-# name = "github"
-# url = "https://github.com/leon-wolf"
-
-# [[params.social]]
-# name = "stackoverflow"
-# url = "https://stackoverflow.com/users/10005750/lwolf"
-
-# # [[params.social]]
-# #   name = "xing"
-# #   url = "https://www.xing.com/profile/Leon_Wolf6"
-
-# [[params.social]]
-# name = "email"
-# url = "mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev"
 
 # [services]
 # [services.googleAnalytics]
@@ -116,23 +38,23 @@ pre = "<span data-feather='home'></span>"
 url = "/"
 weight = 1
 
-[[menu.main]]
-name = "Posts"
-pre = "<span data-feather='book'></span>"
-url = "/posts/"
-weight = 2
+# [[menu.main]]
+# name = "Posts"
+# pre = "<span data-feather='book'></span>"
+# url = "/posts/"
+# weight = 2
 
-[[menu.main]]
-name = "Projects"
-pre = "<span data-feather='code'></span>"
-url = "/projects/"
-weight = 3
+# [[menu.main]]
+# name = "Projects"
+# pre = "<span data-feather='code'></span>"
+# url = "/projects/"
+# weight = 3
 
-[[menu.main]]
-name = "Tags"
-pre = "<span data-feather='tag'></span>"
-url = "/tags/"
-weight = 4
+# [[menu.main]]
+# name = "Tags"
+# pre = "<span data-feather='tag'></span>"
+# url = "/tags/"
+# weight = 4
 
 [[menu.main]]
 identifier = "github"

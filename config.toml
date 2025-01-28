@@ -15,6 +15,7 @@ metaKeywords = ["blog", "gokarna", "hugo"]
 showBackToTopButton = true                             # true or false for "back to top" button on posts and pages
 socialIcons = [
     # {name = "twitter", url = "https://example.com"},
+    { name = "bluesky", url = "https://bsky.app/profile/leonwolf.dev" },
     { name = "linkedin", url = "https://www.linkedin.com/in/leon-wolf3103/" },
     { name = "xing", url = "https://www.xing.com/profile/Leon_Wolf6" },
     { name = "stackoverflow", url = "https://stackoverflow.com/users/10005750/lwolf" },

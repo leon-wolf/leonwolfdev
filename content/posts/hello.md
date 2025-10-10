@@ -1,11 +1,10 @@
 ---
-title: "Emoji Support"
-date: 2020-10-01T17:55:28+08:00
-description: "Guide to emoji usage in Hugo and DoIt."
-tags: ["emoji"]
-type: post
-weight: 25
-showTableOfContents: true
+title: "Hello"
+date: 2025-04-07
+lastmod: 2025-04-07
+showTableOfContents: false
+draft: true
+type: "post"
 ---
 
 Emoji can be enabled in a Hugo project in a number of ways.

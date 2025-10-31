@@ -6,14 +6,15 @@
 {{- if $appConfig -}}
 <div class="app-buttons">
     {{- if $appConfig.testFlightURL -}}
-    <a href="{{ $appConfig.testFlightURL }}" class="testflight-button">🚀 Join TestFlight Beta{{ if $version }} ({{
-        $version }}){{ end }}</a>
+    <a href="{{ $appConfig.testFlightURL }}" class="testflight-button" target="_blank" rel="noopener noreferrer">🚀 Join
+        TestFlight Beta{{ if $version }} ({{ $version }}){{ end }}</a>
     {{- end -}}
 
     {{- if eq $appStoreState "soon" -}}
     <span class="app-store-button app-store-soon">📱 Available Soon on App Store</span>
     {{- else if $appConfig.appStoreURL -}}
-    <a href="{{ $appConfig.appStoreURL }}" class="app-store-button">📱 Download on the App Store</a>
+    <a href="{{ $appConfig.appStoreURL }}" class="app-store-button" target="_blank" rel="noopener noreferrer">📱
+        Download on the App Store</a>
     {{- end -}}
 </div>
 {{- else -}}

@@ -1,0 +1,23 @@
+{{- $appName := .Get "app" -}}
+{{- $version := .Get "version" | default "" -}}
+{{- $appStoreState := .Get "appstore" | default "available" -}}
+
+{{- $appConfig := index .Site.Params.apps $appName -}}
+{{- if $appConfig -}}
+<div class="app-buttons">
+    {{- if $appConfig.testFlightURL -}}
+    <a href="{{ $appConfig.testFlightURL }}" class="testflight-button">🚀 Join TestFlight Beta{{ if $version }} ({{
+        $version }}){{ end }}</a>
+    {{- end -}}
+
+    {{- if eq $appStoreState "soon" -}}
+    <span class="app-store-button app-store-soon">📱 Available Soon on App Store</span>
+    {{- else if $appConfig.appStoreURL -}}
+    <a href="{{ $appConfig.appStoreURL }}" class="app-store-button">📱 Download on the App Store</a>
+    {{- end -}}
+</div>
+{{- else -}}
+<div class="app-buttons">
+    <p><em>App configuration not found for: {{ $appName }}</em></p>
+</div>
+{{- end -}}

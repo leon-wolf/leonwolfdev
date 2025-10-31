@@ -11,8 +11,9 @@ avatarSize = "size-m"
 avatarURL = "/img/leon-wolf.jpg"
 description = "iOS Developer @ JAKALA Germany"
 footer = "Leon Wolf"
-metaKeywords = ["blog", "gokarna", "hugo"]
+metaKeywords = ["Leon Wolf", "iOS Developer", "JAKALA Germany", "iOS Apps", "Scora", "Complication Compilation", "Apple Watch", "Swift", "Mobile Development", "App Development"]
 showBackToTopButton = true                             # true or false for "back to top" button on posts and pages
+
 socialIcons = [
     { name = "github", url = "https://github.com/leon-wolf" },
     # {name = "twitter", url = "https://example.com"},
@@ -25,6 +26,16 @@ socialIcons = [
     # {name = "twitch", url = "https://example.com"},
     { name = "email", url = "mailto:leon@leonwolf.dev?subject=Kontakt über leonwolf.dev" },
 ]
+
+# App Store and TestFlight URLs
+[params.apps]
+[params.apps.scora]
+appStoreURL = "https://apps.apple.com/app/scora-placeholder-id"
+testFlightURL = "https://testflight.apple.com/join/scora-testflight-placeholder"
+
+[params.apps.complicationCompilation]
+appStoreURL = "https://apps.apple.com/app/complication-compilation-placeholder-id"
+testFlightURL = "https://testflight.apple.com/join/complication-compilation-testflight-placeholder"
 
 # [services]
 # [services.googleAnalytics]
@@ -40,23 +51,29 @@ pre = "<span data-feather='home'></span>"
 url = "/"
 weight = 1
 
+[[menu.main]]
+name = "Apps"
+pre = "<span data-feather='smartphone'></span>"
+url = "/apps/"
+weight = 2
+
 # [[menu.main]]
 # name = "Posts"
 # pre = "<span data-feather='book'></span>"
 # url = "/posts/"
-# weight = 2
+# weight = 3
 
 # [[menu.main]]
 # name = "Projects"
 # pre = "<span data-feather='code'></span>"
 # url = "/projects/"
-# weight = 3
+# weight = 4
 
 # [[menu.main]]
 # name = "Tags"
 # pre = "<span data-feather='tag'></span>"
 # url = "/tags/"
-# weight = 4
+# weight = 5
 
 [[menu.main]]
 identifier = "buymeacoffee"
@@ -71,6 +88,9 @@ weight = 6
 # weight = 7
 
 [markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 [markup.tableOfContents]
 startLevel = 1
 endLevel = 4

@@ -456,6 +456,57 @@ html[data-theme="dark"] .app-card p strong {
   outline: none;
 }
 
+/* Homepage CTA Button */
+.homepage-cta {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: white !important;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(255, 77, 77, 0.2);
+}
+
+.homepage-cta:hover {
+  background-color: var(--accent-hover, #e63946);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(255, 77, 77, 0.3);
+  color: white !important;
+  text-decoration: none;
+}
+
+.homepage-cta:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Dark mode for homepage CTA */
+html[data-theme="dark"] .homepage-cta {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="dark"] .homepage-cta:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive homepage CTA */
+@media (max-width: 767px) {
+  .homepage-cta {
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .homepage-cta {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+  }
+}
+
 /* Print Styles */
 @media print {
   .app-card {
@@ -471,5 +522,11 @@ html[data-theme="dark"] .app-card p strong {
     background-color: transparent !important;
     color: #000 !important;
     border: 1px solid #000;
+  }
+  
+  .homepage-cta {
+    background-color: transparent !important;
+    color: #000 !important;
+    border: 2px solid #000;
   }
 }

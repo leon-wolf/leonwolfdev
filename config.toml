@@ -35,7 +35,7 @@ testFlightURL = "https://fli.so/scora-tf"
 
 [params.apps.complicationCompilation]
 appStoreURL = "https://fli.so/comp-comp"
-testFlightURL = "https://fli.so/comp-comp-tf"
+#testFlightURL = "https://fli.so/comp-comp-tf"
 
 # [services]
 # [services.googleAnalytics]

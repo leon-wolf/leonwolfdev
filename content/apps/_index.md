@@ -108,7 +108,7 @@ Complication Compilation is a collection of useful Apple Watch complications tha
 - Anyone looking to get more functionality from their Apple Watch
 - Users who want practical additions to their watch faces
 
-{{< app-buttons app="complicationCompilation" appstore="soon" >}}
+{{< app-buttons app="complicationCompilation">}}
 
 </div>
 

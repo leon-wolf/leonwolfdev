@@ -69,7 +69,7 @@ Scora is your comprehensive scoring solution for various sports. Currently suppo
 
 For padel matches, Scora follows the <a href="https://www.padelfip.com/wp-content/uploads/2023/02/2-game-regulations.pdf" target="_blank" rel="noopener noreferrer">official FIP Padel Rules</a> to ensure accurate scoring and match management.
 
-**Currently in Beta:** Scora 2.0 is now available on TestFlight with exciting new features and improvements! Join the beta to get early access to the latest version.
+<!-- **Currently in Beta:** Scora 2.0 is now available on TestFlight with exciting new features and improvements! Join the beta to get early access to the latest version. -->
 
 **Key Features:**
 - **Real-time Match Scoring** - Track scores live during matches

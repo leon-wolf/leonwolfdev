@@ -30,11 +30,11 @@ socialIcons = [
 # App Store and TestFlight URLs
 [params.apps]
 [params.apps.scora]
-appStoreURL = "https://fli.so/scora"
-testFlightURL = "https://fli.so/scora-tf"
+appStoreURL = "https://apple.co/3Lqwy6G"
+#testFlightURL = "https://fli.so/scora-tf"
 
 [params.apps.complicationCompilation]
-appStoreURL = "https://fli.so/comp-comp"
+appStoreURL = "https://apple.co/494aNUb"
 #testFlightURL = "https://fli.so/comp-comp-tf"
 
 # [services]

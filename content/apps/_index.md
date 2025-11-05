@@ -67,6 +67,8 @@ From multi-sport scoring solutions to functional Apple Watch complications, thes
 
 Scora is your comprehensive scoring solution for various sports. Currently supporting padel and soccer, with plans to expand to additional sports like table tennis and more. Whether you're playing a casual game with friends or keeping track of club matches, Scora helps you keep accurate scores and track match progress.
 
+For padel matches, Scora follows the <a href="https://www.padelfip.com/wp-content/uploads/2023/02/2-game-regulations.pdf" target="_blank" rel="noopener noreferrer">official FIP Padel Rules</a> to ensure accurate scoring and match management.
+
 **Currently in Beta:** Scora 2.0 is now available on TestFlight with exciting new features and improvements! Join the beta to get early access to the latest version.
 
 **Key Features:**

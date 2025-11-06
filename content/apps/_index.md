@@ -87,6 +87,10 @@ For padel matches, Scora follows the <a href="https://www.padelfip.com/wp-conten
 
 {{< app-buttons app="scora" version="v2.0" >}}
 
+<div style="margin-top: 1rem;">
+  <a href="mailto:scora@leonwolf.dev?subject=Scora%20Support%20Request&body=Hi%20Leon%2C%0A%0AI%27m%20contacting%20you%20about%20Scora.%0A%0A%5BPlease%20describe%20your%20question%2C%20feedback%2C%20or%20issue%20here%5D%0A%0AThanks%21" class="contact-button">💬 Scora Support</a>
+</div>
+
 </div>
 
 <div class="app-card">
